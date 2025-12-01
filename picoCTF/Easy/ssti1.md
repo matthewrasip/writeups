@@ -5,7 +5,7 @@
 I made a cool website where you can announce whatever you want! Try it out! I heard templating is a cool and modular way to build web apps! Check out my website here!
 
 # Approach
-Based on the description of the challenge, we can immediately try a server side injection attack. On the page, we can enter the 'annoucement' `{{7 * 7}}`, with the next page displaying:
+Based on the description of the challenge, we can immediately try a server side template injection attack. On the page, we can enter the 'annoucement' `{{7 * 7}}`, with the next page displaying:
 ```
 49
 ```
